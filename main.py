@@ -39,9 +39,9 @@ fig1 = go.Figure(data=[trace_states])
 col1, col2 = st.columns(2)
 with col1:
     st.image("img.png")
-    b1 = st.button("Show choropleth map.", width=150)
+    b1 = st.button("Show choropleth map.")
 with col2:
-    st.image("choropleth.png")
+    st.image("choropleth.png", width=150)
     b2 = st.button("Show carto positron map.")
 if b1:
     st.plotly_chart(fig)
