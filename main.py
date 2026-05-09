@@ -38,7 +38,7 @@ trace_states = go.Choropleth(
 fig1 = go.Figure(data=[trace_states])
 col1, col2 = st.columns(2)
 with col1:
-    st.image("img.png")
+    st.image("img.png", width=150)
     b1 = st.button("Show choropleth map.")
 with col2:
     st.image("choropleth.png", width=150)
